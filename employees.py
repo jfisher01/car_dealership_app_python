@@ -164,7 +164,7 @@ class Employee:
             elif choice == 4:
                 self.numb_of_hours_worked()
             elif choice == 5:
-                company_policy = open('C:\\Users\\uchej\\PycharmProjects\\CarDealershipProject\\company_policy.txt','r')
+                company_policy = open('company_policy.txt','r')
                 print(company_policy.read())
                 fileinput.close()
                 break
